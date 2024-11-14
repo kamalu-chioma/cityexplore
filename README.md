@@ -6,8 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Read me first: set API KEY
 Before running the project
  
-1. add your Open AI api key in environments/*.ts files
-2. Open `index.html` and add your Google API Key
+1. add your Open AI api key in environments/*.ts files. You can create an account in the [OpenAI website](https://platform.openai.com/docs/overview)
+2. Open `index.html` and add your Google API Key. Follow [Google Map instructions](https://developers.google.com/maps/get-started?hl=it)
 
 
 ## Development server
