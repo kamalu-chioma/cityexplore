@@ -20,7 +20,7 @@ import { MatInput } from '@angular/material/input';
       (submit)="search.emit(form.getRawValue())"
     >
       <mat-form-field style="width: 100%; margin: 10px 0px">
-        <mat-label>City</mat-label>
+        <mat-label>Enter City</mat-label>
         <input
           formControlName="city"
           matInput placeholder="Search city"
@@ -29,11 +29,13 @@ import { MatInput } from '@angular/material/input';
 
       <mat-form-field style="width: 100%; margin: 10px 0px">
         <mat-label>Activity Description</mat-label>
-        <input
-          formControlName="description"
-          matInput placeholder="Add a description"
-        >
-      </mat-form-field>
+        <textarea
+        formControlName="description"
+        matInput
+        placeholder="Add a description of the events you'd like to do in this city"
+        rows="6"
+        ></textarea>
+        </mat-form-field>
 
       <button mat-stroked-button [disabled]="form.invalid">Search</button>
     </form>
